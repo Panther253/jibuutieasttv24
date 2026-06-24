@@ -1,174 +1,759 @@
+```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JIBUUTIEASTTV24 - Média</title>
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Media Free Djibouti : actualités, politique, santé, sport, Afrique et international."
+  >
+
+  <title>MEDIA FREE DJIBOUTI</title>
 
   <style>
+    :root {
+      --rouge: #c8102e;
+      --rouge-fonce: #920d23;
+      --bleu-fonce: #101827;
+      --gris-clair: #f3f4f6;
+      --gris: #667085;
+      --blanc: #ffffff;
+      --bordure: #e5e7eb;
+      --texte: #1f2937;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      color: #222;
+      background-color: var(--gris-clair);
+      color: var(--texte);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
     }
 
-    header {
-      background: #001f3f;
-      color: white;
-      padding: 25px;
+    a {
+      color: inherit;
+    }
+
+    /* En-tête */
+
+    .site-header {
+      background-color: var(--bleu-fonce);
+      color: var(--blanc);
+      border-bottom: 5px solid var(--rouge);
+    }
+
+    .header-content {
+      max-width: 1200px;
+      margin: auto;
+      padding: 28px 20px 22px;
       text-align: center;
     }
 
-    header h1 {
+    .site-title {
       margin: 0;
       font-size: 38px;
-      color: #ffcc00;
+      letter-spacing: 1px;
     }
 
-    nav {
-      background: #003366;
-      padding: 12px;
-      text-align: center;
+    .site-description {
+      margin: 8px 0 0;
+      color: #d1d5db;
+      font-size: 16px;
     }
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
+    /* Navigation */
+
+    .main-navigation {
+      background-color: #182235;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
     }
 
-    .hero {
-      background: linear-gradient(to right, #001f3f, #0074D9);
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .hero h2 {
-      font-size: 35px;
-    }
-
-    .container {
-      width: 90%;
+    .navigation-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 4px;
+      max-width: 1200px;
       margin: auto;
-      padding: 30px 0;
+      padding: 0 12px;
+      list-style: none;
     }
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #ccc;
-    }
-
-    .card h3 {
-      color: #003366;
-    }
-
-    .btn {
-      display: inline-block;
-      background: #ffcc00;
-      color: #001f3f;
-      padding: 10px 15px;
-      text-decoration: none;
+    .navigation-list a {
+      display: block;
+      padding: 15px 14px;
+      color: var(--blanc);
+      font-size: 14px;
       font-weight: bold;
-      border-radius: 5px;
+      text-decoration: none;
+      text-transform: uppercase;
     }
 
-    .video {
-      background: #111;
-      color: white;
-      padding: 30px;
-      text-align: center;
-      border-radius: 10px;
+    .navigation-list a:hover {
+      background-color: var(--rouge);
     }
+
+    /* Contenu principal */
+
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 35px 20px 60px;
+    }
+
+    /* Barre de recherche */
+
+    .search-container {
+      margin-bottom: 35px;
+      padding: 22px;
+      background-color: var(--blanc);
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    }
+
+    .search-container label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1px solid #cbd5e1;
+      border-radius: 7px;
+      font-size: 16px;
+      outline: none;
+    }
+
+    .search-input:focus {
+      border-color: var(--rouge);
+      box-shadow: 0 0 0 3px rgba(200, 16, 46, 0.12);
+    }
+
+    /* Article à la une */
+
+    .featured-section {
+      margin-bottom: 50px;
+    }
+
+    .featured-card {
+      display: grid;
+      grid-template-columns: 1fr 1.25fr;
+      overflow: hidden;
+      background-color: var(--blanc);
+      border-radius: 14px;
+      box-shadow: 0 6px 22px rgba(0, 0, 0, 0.10);
+    }
+
+    .featured-visual {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 330px;
+      padding: 30px;
+      background:
+        linear-gradient(
+          135deg,
+          var(--bleu-fonce),
+          var(--rouge)
+        );
+      color: var(--blanc);
+      font-size: 52px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .featured-content {
+      padding: 38px;
+    }
+
+    .featured-content h2 {
+      margin: 10px 0 16px;
+      font-size: 34px;
+      line-height: 1.25;
+    }
+
+    .featured-content p {
+      color: #4b5563;
+      font-size: 18px;
+    }
+
+    /* Sections */
+
+    .news-section {
+      margin-bottom: 55px;
+      scroll-margin-top: 20px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid var(--rouge);
+    }
+
+    .section-header h2 {
+      margin: 0;
+      color: var(--bleu-fonce);
+      font-size: 29px;
+    }
+
+    .article-count {
+      padding: 5px 10px;
+      background-color: var(--bleu-fonce);
+      color: var(--blanc);
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .article-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    /* Cartes d’articles */
+
+    .article-card {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background-color: var(--blanc);
+      border: 1px solid var(--bordure);
+      border-radius: 11px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .article-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+    }
+
+    .article-visual {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 185px;
+      padding: 20px;
+      background:
+        linear-gradient(
+          135deg,
+          var(--bleu-fonce),
+          #344054
+        );
+      color: var(--blanc);
+      font-size: 27px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .article-image {
+      width: 100%;
+      height: 185px;
+      object-fit: cover;
+    }
+
+    .article-content {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding: 22px;
+    }
+
+    .article-category {
+      margin: 0 0 8px;
+      color: var(--rouge);
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+    }
+
+    .article-card h3 {
+      margin: 0 0 12px;
+      color: var(--bleu-fonce);
+      font-size: 22px;
+      line-height: 1.35;
+    }
+
+    .article-summary {
+      flex: 1;
+      margin: 0 0 17px;
+      color: #4b5563;
+    }
+
+    .article-date {
+      margin-bottom: 15px;
+      color: var(--gris);
+      font-size: 13px;
+    }
+
+    .read-button {
+      display: inline-block;
+      align-self: flex-start;
+      padding: 10px 16px;
+      background-color: var(--rouge);
+      color: var(--blanc);
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .read-button:hover {
+      background-color: var(--rouge-fonce);
+    }
+
+    .empty-section {
+      grid-column: 1 / -1;
+      padding: 30px;
+      background-color: var(--blanc);
+      border: 1px dashed #cbd5e1;
+      border-radius: 9px;
+      color: var(--gris);
+      text-align: center;
+    }
+
+    /* Pied de page */
 
     footer {
-      background: #001f3f;
-      color: white;
+      padding: 35px 20px;
+      background-color: var(--bleu-fonce);
+      color: #d1d5db;
       text-align: center;
-      padding: 25px;
-      margin-top: 30px;
+      border-top: 5px solid var(--rouge);
+    }
+
+    footer strong {
+      color: var(--blanc);
+    }
+
+    /* Téléphone et tablette */
+
+    @media (max-width: 950px) {
+      .article-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .featured-card {
+        grid-template-columns: 1fr;
+      }
+
+      .featured-visual {
+        min-height: 220px;
+      }
+    }
+
+    @media (max-width: 650px) {
+      .site-title {
+        font-size: 29px;
+      }
+
+      .navigation-list {
+        justify-content: flex-start;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+      }
+
+      .navigation-list a {
+        white-space: nowrap;
+      }
+
+      main {
+        padding: 25px 14px 45px;
+      }
+
+      .article-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .featured-content {
+        padding: 25px;
+      }
+
+      .featured-content h2 {
+        font-size: 27px;
+      }
+
+      .section-header h2 {
+        font-size: 25px;
+      }
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>JIBUUTIEASTTV24</h1>
-  <p>Actualités • Informations • Débats • Reportages</p>
-</header>
+  <header class="site-header">
 
-<nav>
-  <a href="#">Accueil</a>
-  <a href="#">Politique</a>
-  <a href="#">Société</a>
-  <a href="#">Afrique</a>
-  <a href="#">Vidéos</a>
-  <a href="#">Contact</a>
-</nav>
+    <div class="header-content">
+      <h1 class="site-title">MEDIA FREE DJIBOUTI</h1>
 
-<section class="hero">
-  <h2>Votre média d'information en continu</h2>
-  <p>Suivez l'actualité de Djibouti, de l'Afrique et du monde 24h/24.</p>
-  <a href="#" class="btn">Voir les dernières nouvelles</a>
-</section>
-
-<div class="container">
-
-  <h2>Dernières actualités</h2>
-
-  <div class="grid">
-
-    <div class="card">
-      <h3>Politique</h3>
-      <p>Analyses, débats et informations politiques de Djibouti et de la région.</p>
-      <a href="#" class="btn">Lire plus</a>
+      <p class="site-description">
+        Information indépendante, analyse et liberté d’expression
+      </p>
     </div>
 
-    <div class="card">
-      <h3>Société</h3>
-      <p>Les sujets sociaux, la jeunesse, l'éducation, la santé et la vie quotidienne.</p>
-      <a href="#" class="btn">Lire plus</a>
+    <nav class="main-navigation" aria-label="Navigation principale">
+      <ul class="navigation-list">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#sante">Santé</a></li>
+        <li><a href="#politique">Politique</a></li>
+        <li><a href="#sport">Sport</a></li>
+        <li><a href="#info-general">Info générale</a></li>
+        <li><a href="#international">International</a></li>
+        <li><a href="#afrique">Afrique</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main id="accueil">
+
+    <div class="search-container">
+      <label for="article-search">
+        Rechercher un article
+      </label>
+
+      <input
+        id="article-search"
+        class="search-input"
+        type="search"
+        placeholder="Exemple : Ebola, Djibouti, Éthiopie..."
+      >
     </div>
 
-    <div class="card">
-      <h3>Afrique</h3>
-      <p>Actualités du continent africain, économie, sécurité et développement.</p>
-      <a href="#" class="btn">Lire plus</a>
-    </div>
+    <section class="featured-section">
+      <div id="featured-article"></div>
+    </section>
 
-  </div>
+    <section id="sante" class="news-section">
+      <div class="section-header">
+        <h2>Santé</h2>
+        <span class="article-count" data-count="sante">0 article</span>
+      </div>
 
-  <h2>Vidéo du jour</h2>
+      <div class="article-grid" data-category="sante"></div>
+    </section>
 
-  <div class="video">
-    <h3>JIBUUTIEASTTV24 LIVE</h3>
-    <p>Ici vous pourrez ajouter vos vidéos YouTube, TikTok ou Facebook.</p>
-  </div>
+    <section id="politique" class="news-section">
+      <div class="section-header">
+        <h2>Politique</h2>
+        <span class="article-count" data-count="politique">0 article</span>
+      </div>
 
-  <h2>Contact</h2>
+      <div class="article-grid" data-category="politique"></div>
+    </section>
 
-  <div class="card">
-    <p><strong>Email :</strong> contact@jibuutieasttv24.com</p>
-    <p><strong>TikTok :</strong> @jibuutieasttv24</p>
-    <p><strong>Facebook :</strong> JIBUUTIEASTTV24</p>
-  </div>
+    <section id="sport" class="news-section">
+      <div class="section-header">
+        <h2>Sport</h2>
+        <span class="article-count" data-count="sport">0 article</span>
+      </div>
 
-</div>
+      <div class="article-grid" data-category="sport"></div>
+    </section>
 
-<footer>
-  <p>© 2026 JIBUUTIEASTTV24 - Tous droits réservés</p>
-</footer>
+    <section id="info-general" class="news-section">
+      <div class="section-header">
+        <h2>Information générale</h2>
+        <span class="article-count" data-count="info-general">0 article</span>
+      </div>
+
+      <div class="article-grid" data-category="info-general"></div>
+    </section>
+
+    <section id="international" class="news-section">
+      <div class="section-header">
+        <h2>International</h2>
+        <span class="article-count" data-count="international">0 article</span>
+      </div>
+
+      <div class="article-grid" data-category="international"></div>
+    </section>
+
+    <section id="afrique" class="news-section">
+      <div class="section-header">
+        <h2>Afrique</h2>
+        <span class="article-count" data-count="afrique">0 article</span>
+      </div>
+
+      <div class="article-grid" data-category="afrique"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <strong>MEDIA FREE DJIBOUTI</strong>
+
+    <p>
+      © 2026 — Tous droits réservés
+    </p>
+  </footer>
+
+  <script>
+    /*
+      =========================================================
+      LISTE DES ARTICLES DU JOURNAL
+      =========================================================
+
+      Pour publier un nouvel article :
+
+      1. Crée son fichier HTML dans GitHub.
+      2. Copie un bloc d'article ci-dessous.
+      3. Modifie le titre, le résumé, la date et le lien.
+      4. Choisis une catégorie parmi :
+
+         sante
+         politique
+         sport
+         info-general
+         international
+         afrique
+    */
+
+    const articles = [
+      {
+        title:
+          "Ebola : une mobilisation africaine tardive et des questions sans réponse",
+
+        summary:
+          "Une analyse critique de la réaction des dirigeants africains face à la progression de l’épidémie d’Ebola.",
+
+        category: "sante",
+
+        categoryName: "Santé",
+
+        date: "2026-06-24",
+
+        link: "article-ebola.html",
+
+        image: ""
+      },
+
+      {
+        title:
+          "Itoobiya: Abiy Axmed oo xoojiyey awooddiisa kadib guul weyn oo doorasho",
+
+        summary:
+          "Xisbiga Barwaaqo ayaa helay aqlabiyad ballaaran, balse Itoobiya waxay weli wajahaysaa caqabado siyaasadeed, amni iyo dhaqaale.",
+
+        category: "politique",
+
+        categoryName: "Politique",
+
+        date: "2026-06-24",
+
+        link: "politique-ethiopie-abiy-ahmed.html",
+
+        image: ""
+      }
+    ];
+
+    const searchInput = document.getElementById("article-search");
+
+    const formatDate = (dateString) => {
+      const date = new Date(`${dateString}T12:00:00`);
+
+      return new Intl.DateTimeFormat("fr-FR", {
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+      }).format(date);
+    };
+
+    const createVisual = (article, featured = false) => {
+      if (article.image) {
+        return `
+          <img
+            class="${featured ? "article-image" : "article-image"}"
+            src="${article.image}"
+            alt="${article.title}"
+          >
+        `;
+      }
+
+      return `
+        <div class="${featured ? "featured-visual" : "article-visual"}">
+          ${article.categoryName}
+        </div>
+      `;
+    };
+
+    const createArticleCard = (article) => {
+      return `
+        <article
+          class="article-card"
+          data-search="${(
+            article.title +
+            " " +
+            article.summary +
+            " " +
+            article.categoryName
+          ).toLowerCase()}"
+        >
+
+          ${createVisual(article)}
+
+          <div class="article-content">
+
+            <p class="article-category">
+              ${article.categoryName}
+            </p>
+
+            <h3>${article.title}</h3>
+
+            <p class="article-summary">
+              ${article.summary}
+            </p>
+
+            <div class="article-date">
+              Publié le ${formatDate(article.date)}
+            </div>
+
+            <a
+              class="read-button"
+              href="${article.link}"
+            >
+              Lire l’article
+            </a>
+
+          </div>
+
+        </article>
+      `;
+    };
+
+    const renderFeaturedArticle = (articleList) => {
+      const container = document.getElementById("featured-article");
+
+      if (articleList.length === 0) {
+        container.innerHTML = "";
+        return;
+      }
+
+      const featuredArticle = [...articleList].sort(
+        (a, b) => new Date(b.date) - new Date(a.date)
+      )[0];
+
+      container.innerHTML = `
+        <article class="featured-card">
+
+          ${createVisual(featuredArticle, true)}
+
+          <div class="featured-content">
+
+            <p class="article-category">
+              À la une • ${featuredArticle.categoryName}
+            </p>
+
+            <h2>
+              ${featuredArticle.title}
+            </h2>
+
+            <p>
+              ${featuredArticle.summary}
+            </p>
+
+            <div class="article-date">
+              Publié le ${formatDate(featuredArticle.date)}
+            </div>
+
+            <a
+              class="read-button"
+              href="${featuredArticle.link}"
+            >
+              Lire l’article complet
+            </a>
+
+          </div>
+
+        </article>
+      `;
+    };
+
+    const renderSections = (articleList) => {
+      const sectionContainers =
+        document.querySelectorAll("[data-category]");
+
+      sectionContainers.forEach((container) => {
+        const category = container.dataset.category;
+
+        const categoryArticles = articleList
+          .filter((article) => article.category === category)
+          .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+        const countElement =
+          document.querySelector(`[data-count="${category}"]`);
+
+        const articleWord =
+          categoryArticles.length > 1 ? "articles" : "article";
+
+        countElement.textContent =
+          `${categoryArticles.length} ${articleWord}`;
+
+        if (categoryArticles.length === 0) {
+          container.innerHTML = `
+            <div class="empty-section">
+              Aucun article publié dans cette section pour le moment.
+            </div>
+          `;
+
+          return;
+        }
+
+        container.innerHTML =
+          categoryArticles.map(createArticleCard).join("");
+      });
+    };
+
+    const renderWebsite = (articleList) => {
+      renderFeaturedArticle(articleList);
+      renderSections(articleList);
+    };
+
+    searchInput.addEventListener("input", () => {
+      const searchValue =
+        searchInput.value.trim().toLowerCase();
+
+      const filteredArticles = articles.filter((article) => {
+        const articleText = (
+          article.title +
+          " " +
+          article.summary +
+          " " +
+          article.categoryName
+        ).toLowerCase();
+
+        return articleText.includes(searchValue);
+      });
+
+      renderWebsite(filteredArticles);
+    });
+
+    renderWebsite(articles);
+  </script>
 
 </body>
 </html>
