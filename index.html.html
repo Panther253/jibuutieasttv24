@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Media Free Djibouti : actualités internationales, politique, santé, sports, reportages, cultures et informations spéciales."
+  >
+
+  <title>MEDIA FREE DJIBOUTI — L’Œil du peuple</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/actualites.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="brand-area">
+      <a class="brand" href="#accueil" aria-label="Retour à l’accueil">
+        <span class="brand-main">MEDIA FREE DJIBOUTI</span>
+        <span class="brand-tagline">L’Œil du peuple</span>
+      </a>
+
+      <p class="site-description">
+        Information quotidienne, indépendante et en continu.
+      </p>
+    </div>
+
+    <nav class="main-navigation" aria-label="Navigation principale">
+      <ul class="navigation-list">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#a-la-une">À la une</a></li>
+        <li><a href="#international">International</a></li>
+        <li><a href="#politique">Politique</a></li>
+        <li><a href="#sante">Santé</a></li>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#reportage">Reportage</a></li>
+        <li><a href="#cultures">Cultures</a></li>
+        <li><a href="#info-speciale">Info spéciale</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="accueil">
+    <section class="search-panel" aria-labelledby="search-title">
+      <div>
+        <p class="eyebrow">Archives du média</p>
+        <h1 id="search-title">Rechercher une publication</h1>
+      </div>
+
+      <label class="visually-hidden" for="article-search">
+        Rechercher un article
+      </label>
+
+      <input
+        id="article-search"
+        class="search-input"
+        type="search"
+        placeholder="Exemple : Venezuela, Ebola, Éthiopie…"
+        autocomplete="off"
+      >
+    </section>
+
+    <section id="a-la-une" class="featured-section" aria-labelledby="featured-title">
+      <div class="featured-heading">
+        <div>
+          <p class="eyebrow">Informations publiées depuis moins de 24 heures</p>
+          <h2 id="featured-title">
+            <span class="black-star" aria-hidden="true">★</span>
+            À la une
+          </h2>
+        </div>
+
+        <p class="featured-rule">
+          Le chronomètre disparaît automatiquement après 24 heures.
+        </p>
+      </div>
+
+      <div id="featured-articles" class="featured-grid"></div>
+    </section>
+
+    <section
+      id="international"
+      class="news-section"
+      data-section="international"
+      style="--category-color: #1261a0;"
+    >
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 01</p>
+          <h2>
+            <span class="black-star" aria-hidden="true">★</span>
+            Actualités internationales
+          </h2>
+        </div>
+        <span class="article-count" data-count="international">0 article</span>
+      </div>
+
+      <div class="tricolor-rule" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="category-articles" data-category="international"></div>
+    </section>
+
+    <section
+      id="politique"
+      class="news-section"
+      data-section="politique"
+      style="--category-color: #b42318;"
+    >
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 02</p>
+          <h2>
+            <span class="black-star" aria-hidden="true">★</span>
+            Politique
+          </h2>
+        </div>
+        <span class="article-count" data-count="politique">0 article</span>
+      </div>
+
+      <div class="tricolor-rule" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="category-articles" data-category="politique"></div>
+    </section>
+
+    <section
+      id="sante"
+      class="news-section"
+      data-section="sante"
+      style="--category-color: #087f5b;"
+    >
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 03</p>
+          <h2>
+            <span class="black-star" aria-hidden="true">★</span>
+            Santé
+          </h2>
+        </div>
+        <span class="article-count" data-count="sante">0 article</span>
+      </div>
+
+      <div class="tricolor-rule" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="category-articles" data-category="sante"></div>
+    </section>
+
+    <section
+      id="sports"
+      class="news-section"
+      data-section="sports"
+      style="--category-color: #d97706;"
+    >
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 04</p>
+          <h2>
+            <span class="black-star" aria-hidden="true">★</span>
+            Sports
+          </h2>
+        </div>
+        <span class="article-count" data-count="sports">0 article</span>
+      </div>
+
+      <div class="tricolor-rule" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="category-articles" data-category="sports"></div>
+    </section>
+
+    <section
+      id="reportage"
+      class="news-section"
+      data-section="reportage"
+      style="--category-color: #6938a6;"
+    >
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 05</p>
+          <h2>
+            <span class="black-star" aria-hidden="true">★</span>
+            Reportage
+          </h2>
+        </div>
+        <span class="article-count" data-count="reportage">0 article</span>
+      </div>
+
+      <div class="tricolor-rule" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="category-articles" data-category="reportage"></div>
+    </section>
+
+    <section
+      id="cultures"
+      class="news-section"
+      data-section="cultures"
+      style="--category-color: #9a6700;"
+    >
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 06</p>
+          <h2>
+            <span class="black-star" aria-hidden="true">★</span>
+            Cultures
+          </h2>
+        </div>
+        <span class="article-count" data-count="cultures">0 article</span>
+      </div>
+
+      <div class="tricolor-rule" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="category-articles" data-category="cultures"></div>
+    </section>
+
+    <section
+      id="info-speciale"
+      class="news-section"
+      data-section="info-speciale"
+      style="--category-color: #ad1457;"
+    >
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 07</p>
+          <h2>
+            <span class="black-star" aria-hidden="true">★</span>
+            Info spéciale
+          </h2>
+        </div>
+        <span class="article-count" data-count="info-speciale">0 article</span>
+      </div>
+
+      <div class="tricolor-rule" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="category-articles" data-category="info-speciale"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <strong>MEDIA FREE DJIBOUTI</strong>
+    <p>L’Œil du peuple — Information quotidienne et en continu.</p>
+    <p>© 2026 — Tous droits réservés</p>
+  </footer>
+
+  <noscript>
+    <p class="noscript-message">
+      Activez JavaScript pour afficher les articles, la recherche et le chronomètre de 24 heures.
+    </p>
+  </noscript>
+</body>
+</html>
