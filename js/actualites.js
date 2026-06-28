@@ -1,7 +1,7 @@
  
     "use strict";
 
-    const ARTICLES = [```javascript
+    const ARTICLES = [
 {
   id: "belgique-orages-charleroi",
   number: "ART 2",
