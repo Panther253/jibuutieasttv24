@@ -27,10 +27,7 @@
       près de Seattle.
     </p>
   `
-}
-{
-  id: "belgique-orages-charleroi",
-  number: "ART 2",
+},
      {
   id: "belgique-orages-charleroi",
   number: "ART 2",
@@ -174,6 +171,8 @@ ${article.image
      <span class="article-visual-label">${esc(article.categoryName)}</span>
     `
 }
+      </a> 
+       
         <div class="article-content">
           <p class="article-category">${esc(article.categoryName)}</p>
           <h3 class="article-title">
