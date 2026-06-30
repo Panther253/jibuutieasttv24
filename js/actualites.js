@@ -9,7 +9,7 @@
   category: "sport",
   categoryName: "Sports",
 
-  publishedAt: "2026-06-30T20:00:00+02:00",
+  publishedAt: "2026-07-01T00:00:00+02:00",
 
   color: "#c8102e",
   lang: "fr",
