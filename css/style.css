@@ -11,7 +11,8 @@
   --shadow: 0 12px 32px rgba(16, 24, 39, 0.09);
   --max-width: 1220px;
 }
-    
+
+
 * { box-sizing:border-box; }
     html { scroll-behavior:smooth; }
     body {
