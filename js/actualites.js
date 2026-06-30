@@ -2,85 +2,33 @@
     "use strict";
 
     const ARTICLES = [
-"use strict";
-
-const ARTICLES = [
-
 {
-  id: "diables-rouges-senegal",
-  number: "ART 1",
+  id: "belgique-senegal",
+  number: "ART 3",
 
   category: "sport",
   categoryName: "Sports",
 
   publishedAt: "2026-06-30T20:00:00+02:00",
 
-  color: "#c8102e",
+  color: "#b5122b",
   lang: "fr",
+
   image: "images/diables-rouges-senegal.png",
 
-  title: "Mondial 2026 : les Diables Rouges au complet avant le choc face au Sénégal",
+  title: "Mondial 2026 : les Diables Rouges au complet avant le Sénégal",
 
   summary:
-    "Les 26 joueurs belges ont participé à leur dernière séance d’entraînement avant la rencontre face au Sénégal à Seattle.",
+    "Les Diables Rouges ont effectué leur dernière séance d’entraînement avant leur rencontre face au Sénégal.",
 
   body: `
-    <p class="article-note">
-      Image d’illustration générée par intelligence artificielle.
-    </p>
-
     <p>
-      En guise de répétition générale, les Diables Rouges se sont
-      entraînés ce mardi en fin de matinée dans leur camp de base
-      situé à Renton, à quelques kilomètres de Seattle.
-    </p>
-
-    <p>
-      Les 26 joueurs sélectionnés ont participé à la séance.
-      Laissé au repos dimanche, Leandro Trossard était bien présent
-      avec le groupe.
-    </p>
-
-    <h2>Une évolution encourageante pour Zeno Debast</h2>
-
-    <p>
-      Présent sur le terrain, mais maintenu à l’écart du groupe lors
-      de la séance précédente, Zeno Debast a cette fois participé
-      normalement à l’entraînement collectif.
-    </p>
-
-    <p>
-      Cette évolution représente une avancée encourageante concernant
-      la situation physique du défenseur belge avant la rencontre.
-    </p>
-
-    <h2>Un rendez-vous décisif à Seattle</h2>
-
-    <p>
-      Les Diables Rouges affronteront le Sénégal mercredi à 13 heures,
-      heure locale, soit 22 heures en Belgique.
-    </p>
-
-    <p>
-      La rencontre se déroulera au Lumen Field de Seattle, où l’équipe
-      belge avait déjà disputé son premier match face à l’Égypte.
-    </p>
-
-    <h2>Le Sénégal, un adversaire redoutable</h2>
-
-    <p>
-      La Belgique devra faire preuve de rigueur défensive, de maîtrise
-      au milieu du terrain et d’efficacité offensive face à une équipe
-      sénégalaise reconnue pour sa puissance et sa vitesse.
-    </p>
-
-    <p>
-      Dans cette rencontre à élimination directe, les Diables Rouges
-      ne disposeront d’aucune marge d’erreur.
+      À la veille de leur rencontre face au Sénégal, les Diables Rouges
+      ont effectué leur dernière séance d’entraînement à Renton,
+      près de Seattle.
     </p>
   `
-},
-
+}
 {
   id: "belgique-orages-charleroi",
   number: "ART 2",
