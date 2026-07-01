@@ -3,6 +3,345 @@
 
     const ARTICLES = [
 {
+  id: "mondial-2026-classements-qualifies-programme",
+  number: "ART 2",
+
+  category: "sport",
+  categoryName: "Sports",
+
+  publishedAt: "2026-07-01T03:40:00+02:00",
+
+  color: "#c8102e",
+  lang: "fr",
+  image: "",
+
+  title: "Mondial 2026 : classement des groupes, qualifiés pour les huitièmes et programme du 2 juillet",
+
+  summary:
+    "La phase de groupes a livré son verdict. Découvrez le classement des groupes A à L, les équipes qualifiées, les premiers participants aux huitièmes de finale et les rencontres prévues le jeudi 2 juillet.",
+
+  body: `
+    <p>
+      La phase de groupes de la Coupe du monde 2026 est désormais terminée.
+      Les douze groupes, de A à L, ont déterminé les sélections qualifiées
+      pour les seizièmes de finale de la compétition.
+    </p>
+
+    <p>
+      Les deux premières équipes de chaque groupe ont obtenu leur
+      qualification directe. Elles ont été rejointes par les huit meilleurs
+      troisièmes, portant à 32 le nombre de sélections engagées dans la
+      première phase à élimination directe.
+    </p>
+
+    <h2>Classement final des groupes A à L</h2>
+
+    <h3>Groupe A</h3>
+    <p>
+      1. Mexique — 9 points<br>
+      2. Afrique du Sud — 4 points<br>
+      3. Corée du Sud — 3 points<br>
+      4. Tchéquie — 1 point
+    </p>
+
+    <h3>Groupe B</h3>
+    <p>
+      1. Suisse — 7 points<br>
+      2. Canada — 4 points<br>
+      3. Bosnie-Herzégovine — 4 points<br>
+      4. Qatar — 1 point
+    </p>
+
+    <h3>Groupe C</h3>
+    <p>
+      1. Brésil — 7 points<br>
+      2. Maroc — 7 points<br>
+      3. Écosse — 3 points<br>
+      4. Haïti — 0 point
+    </p>
+
+    <h3>Groupe D</h3>
+    <p>
+      1. États-Unis — 6 points<br>
+      2. Australie — 4 points<br>
+      3. Paraguay — 4 points<br>
+      4. Turquie — 3 points
+    </p>
+
+    <h3>Groupe E</h3>
+    <p>
+      1. Allemagne — 6 points<br>
+      2. Côte d’Ivoire — 6 points<br>
+      3. Équateur — 4 points<br>
+      4. Curaçao — 1 point
+    </p>
+
+    <h3>Groupe F</h3>
+    <p>
+      1. Pays-Bas — 7 points<br>
+      2. Japon — 5 points<br>
+      3. Suède — 4 points<br>
+      4. Tunisie — 0 point
+    </p>
+
+    <h3>Groupe G</h3>
+    <p>
+      1. Belgique — 5 points<br>
+      2. Égypte — 5 points<br>
+      3. Iran — 3 points<br>
+      4. Nouvelle-Zélande — 1 point
+    </p>
+
+    <h3>Groupe H</h3>
+    <p>
+      1. Espagne — 7 points<br>
+      2. Cap-Vert — 3 points<br>
+      3. Uruguay — 2 points<br>
+      4. Arabie saoudite — 2 points
+    </p>
+
+    <h3>Groupe I</h3>
+    <p>
+      1. France — 9 points<br>
+      2. Norvège — 6 points<br>
+      3. Sénégal — 3 points<br>
+      4. Irak — 0 point
+    </p>
+
+    <h3>Groupe J</h3>
+    <p>
+      1. Argentine — 9 points<br>
+      2. Autriche — 4 points<br>
+      3. Algérie — 4 points<br>
+      4. Jordanie — 0 point
+    </p>
+
+    <h3>Groupe K</h3>
+    <p>
+      1. Colombie — 7 points<br>
+      2. Portugal — 5 points<br>
+      3. République démocratique du Congo — 4 points<br>
+      4. Ouzbékistan — 0 point
+    </p>
+
+    <h3>Groupe L</h3>
+    <p>
+      1. Angleterre — 7 points<br>
+      2. Croatie — 6 points<br>
+      3. Ghana — 4 points<br>
+      4. Panama — 0 point
+    </p>
+
+    <h2>Les 32 équipes qualifiées pour les seizièmes de finale</h2>
+
+    <p>
+      <strong>Groupe A :</strong> Mexique et Afrique du Sud.
+    </p>
+
+    <p>
+      <strong>Groupe B :</strong> Suisse, Canada et Bosnie-Herzégovine.
+    </p>
+
+    <p>
+      <strong>Groupe C :</strong> Brésil et Maroc.
+    </p>
+
+    <p>
+      <strong>Groupe D :</strong> États-Unis, Australie et Paraguay.
+    </p>
+
+    <p>
+      <strong>Groupe E :</strong> Allemagne, Côte d’Ivoire et Équateur.
+    </p>
+
+    <p>
+      <strong>Groupe F :</strong> Pays-Bas, Japon et Suède.
+    </p>
+
+    <p>
+      <strong>Groupe G :</strong> Belgique et Égypte.
+    </p>
+
+    <p>
+      <strong>Groupe H :</strong> Espagne et Cap-Vert.
+    </p>
+
+    <p>
+      <strong>Groupe I :</strong> France, Norvège et Sénégal.
+    </p>
+
+    <p>
+      <strong>Groupe J :</strong> Argentine, Autriche et Algérie.
+    </p>
+
+    <p>
+      <strong>Groupe K :</strong> Colombie, Portugal et République
+      démocratique du Congo.
+    </p>
+
+    <p>
+      <strong>Groupe L :</strong> Angleterre, Croatie et Ghana.
+    </p>
+
+    <div class="article-note">
+      <strong>Les huit meilleurs troisièmes qualifiés :</strong>
+      Bosnie-Herzégovine, Paraguay, Équateur, Suède, Sénégal,
+      Algérie, République démocratique du Congo et Ghana.
+    </div>
+
+    <h2>Six équipes déjà qualifiées pour les huitièmes de finale</h2>
+
+    <p>
+      Après les premières rencontres des seizièmes de finale, six
+      sélections ont déjà validé leur billet pour les huitièmes.
+    </p>
+
+    <p>
+      Le Canada a éliminé l’Afrique du Sud sur le score de 1-0.
+      Le Paraguay s’est qualifié face à l’Allemagne après une séance
+      de tirs au but, à la suite d’un match nul 1-1.
+    </p>
+
+    <p>
+      Le Maroc a également obtenu sa qualification aux tirs au but
+      contre les Pays-Bas, après un score de 1-1 à l’issue du temps
+      réglementaire et de la prolongation.
+    </p>
+
+    <p>
+      Le Brésil a battu le Japon 2-1, tandis que la France s’est
+      largement imposée contre la Suède sur le score de 3-0.
+      La Norvège a complété cette première liste en éliminant la
+      Côte d’Ivoire 2-1.
+    </p>
+
+    <p>
+      Les équipes déjà qualifiées pour les huitièmes sont donc :
+      <strong>le Canada, le Paraguay, le Maroc, le Brésil, la France
+      et la Norvège.</strong>
+    </p>
+
+    <h2>Programme du jeudi 2 juillet 2026</h2>
+
+    <p>
+      Trois nouvelles rencontres des seizièmes de finale sont prévues
+      le jeudi 2 juillet. Les heures ci-dessous tiennent compte des
+      différents fuseaux horaires des États-Unis, du Canada, du Mexique
+      et de la Belgique.
+    </p>
+
+    <h3>Espagne–Autriche</h3>
+
+    <p>
+      <strong>Stade :</strong> Los Angeles Stadium<br>
+      <strong>Ville :</strong> Inglewood, région de Los Angeles<br>
+      <strong>Pays :</strong> États-Unis
+    </p>
+
+    <p>
+      <strong>Heure locale du stade :</strong> 12H00<br>
+      <strong>Toronto et côte Est des États-Unis :</strong> 15H00<br>
+      <strong>Vancouver et côte Ouest des États-Unis :</strong> 12H00<br>
+      <strong>Mexico :</strong> 13H00<br>
+      <strong>Belgique :</strong> 21H00
+    </p>
+
+    <p>
+      L’Espagne, première du groupe H avec sept points, affrontera
+      l’Autriche, deuxième du groupe J. La sélection espagnole partira
+      avec un statut de favorite, mais devra se méfier d’une équipe
+      autrichienne capable de maintenir une forte intensité.
+    </p>
+
+    <h3>Portugal–Croatie</h3>
+
+    <p>
+      <strong>Stade :</strong> Toronto Stadium<br>
+      <strong>Ville :</strong> Toronto<br>
+      <strong>Pays :</strong> Canada
+    </p>
+
+    <p>
+      <strong>Heure locale de Toronto :</strong> 19H00<br>
+      <strong>Côte Est des États-Unis :</strong> 19H00<br>
+      <strong>Los Angeles et Vancouver :</strong> 16H00<br>
+      <strong>Mexico :</strong> 17H00<br>
+      <strong>Belgique :</strong> 01H00, dans la nuit du 2 au 3 juillet
+    </p>
+
+    <p>
+      Cette affiche opposera deux grandes nations européennes.
+      Le Portugal a terminé deuxième du groupe K, tandis que la Croatie
+      a pris la deuxième place du groupe L.
+    </p>
+
+    <p>
+      La maîtrise du ballon, l’expérience des cadres et l’efficacité
+      offensive pourraient jouer un rôle déterminant dans une rencontre
+      qui s’annonce particulièrement équilibrée.
+    </p>
+
+    <h3>Suisse–Algérie</h3>
+
+    <p>
+      <strong>Stade :</strong> BC Place Vancouver<br>
+      <strong>Ville :</strong> Vancouver<br>
+      <strong>Pays :</strong> Canada
+    </p>
+
+    <p>
+      <strong>Heure locale de Vancouver :</strong> 20H00<br>
+      <strong>Los Angeles et côte Ouest des États-Unis :</strong> 20H00<br>
+      <strong>Toronto et côte Est des États-Unis :</strong> 23H00<br>
+      <strong>Mexico :</strong> 21H00<br>
+      <strong>Belgique :</strong> 05H00, le vendredi 3 juillet
+    </p>
+
+    <p>
+      La Suisse a terminé en tête du groupe B avec sept points.
+      Elle affrontera une sélection algérienne qualifiée parmi les
+      huit meilleurs troisièmes après avoir obtenu quatre points
+      dans le groupe J.
+    </p>
+
+    <p>
+      Les joueurs algériens tenteront de s’appuyer sur leur engagement,
+      leur expérience et leur efficacité offensive pour déjouer une
+      équipe suisse solide et bien organisée.
+    </p>
+
+    <h2>Une journée déterminante pour la suite du tournoi</h2>
+
+    <p>
+      Les rencontres du 2 juillet permettront de connaître trois nouveaux
+      qualifiés pour les huitièmes de finale. Chaque équipe devra gérer
+      la pression d’un match à élimination directe, dans lequel la moindre
+      erreur pourrait mettre fin à son parcours.
+    </p>
+
+    <p>
+      Le duel Espagne–Autriche ouvrira la journée à Inglewood. La rencontre
+      Portugal–Croatie se poursuivra à Toronto, avant le dernier match de
+      la soirée entre la Suisse et l’Algérie à Vancouver.
+    </p>
+
+    <p>
+      À mesure que les seizièmes de finale avancent, le tableau des
+      huitièmes se précise. Le Canada, le Paraguay, le Maroc, le Brésil,
+      la France et la Norvège connaissent déjà leur qualification,
+      tandis que les autres prétendants devront encore défendre leurs
+      ambitions sur le terrain.
+    </p>
+
+    <div class="article-note">
+      <strong>Source :</strong> données officielles de la FIFA,
+      actualisées le 1er juillet 2026. Les horaires peuvent être
+      présentés différemment selon le fuseau horaire du lecteur.
+    </div>
+  `
+},
+     
+     {
   id: "diables-rouges-senegal",
   number: "ART 1",
 
