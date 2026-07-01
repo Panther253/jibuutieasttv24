@@ -8,7 +8,7 @@
 category: "info-speciale",
 categoryName: "Info spéciale",
 
-  publishedAt: "2026-07-01T03:40:00+02:00",
+  publishedAt: "2026-07-01T22:50:00+02:00",
 
   color: "#ad1457",
   lang: "fr",
