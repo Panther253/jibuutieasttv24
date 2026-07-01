@@ -4,14 +4,14 @@
     const ARTICLES = [
 {
   id: "mondial-2026-classements-qualifies-programme",
-  number: "ART 2",
+ number: "ART 1",
 
-  category: "sport",
-  categoryName: "Sports",
+category: "info-speciale",
+categoryName: "Info spéciale",
 
   publishedAt: "2026-07-01T03:40:00+02:00",
 
-  color: "#c8102e",
+  color: "#ad1457",
   lang: "fr",
   image: "",
 
