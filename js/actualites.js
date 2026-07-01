@@ -340,6 +340,101 @@ categoryName: "Info spéciale",
     </div>
   `
 },
+     {
+  id: "senegal-belgique-premiere-mi-temps",
+  number: "ART 2",
+  category: "sport",
+  categoryName: "Sports",
+  publishedAt: "2026-07-01T22:50:00+02:00",
+  color: "#c8102e",
+  lang: "fr",
+  image: "",
+  title: "Le Sénégal mène face à la Belgique après une première période maîtrisée",
+  summary: "Le Sénégal a ouvert le score à la 24ᵉ minute face à la Belgique. Plus rapides et plus efficaces, les Lions de la Teranga ont terminé la première période avec un avantage de 1-0.",
+  body: `
+    <p>
+      Le Sénégal a parfaitement entamé sa rencontre face à la Belgique en ouvrant
+      le score à la 24ᵉ minute de jeu. Cette réalisation est venue récompenser
+      une première période sérieuse et convaincante de la part des Lions de la
+      Teranga, qui ont rapidement imposé leur rythme et leur intensité.
+    </p>
+
+    <p>
+      Dès les premières minutes de la rencontre, l’équipe sénégalaise s’est
+      montrée particulièrement active. Grâce à la vitesse de ses attaquants,
+      à la puissance physique de ses joueurs et à la qualité de ses transitions
+      offensives, le Sénégal a régulièrement placé la défense belge sous pression.
+    </p>
+
+    <p>
+      La Belgique connaissait pourtant les principales qualités de son adversaire.
+      Les Diables Rouges savaient que le Sénégal pouvait se montrer très dangereux
+      lorsqu’il récupérait le ballon et se projetait rapidement vers l’avant.
+      Malgré cette préparation, la défense belge n’a pas réussi à contenir
+      l’accélération sénégalaise qui a conduit à l’ouverture du score.
+    </p>
+
+    <p>
+      À la 24ᵉ minute, le Sénégal a profité d’une action rapide et bien construite
+      pour prendre l’avantage. La défense belge a été prise de vitesse, tandis que
+      l’attaque sénégalaise s’est montrée efficace au moment de conclure cette
+      occasion importante.
+    </p>
+
+    <p>
+      Ce premier but a renforcé la confiance des joueurs sénégalais. Après avoir
+      pris l’avantage, les Lions de la Teranga ont continué à défendre avec
+      discipline, concentration et détermination, tout en restant dangereux
+      lorsqu’ils récupéraient le ballon.
+    </p>
+
+    <p>
+      De son côté, la Belgique a tenté de reprendre le contrôle de la rencontre
+      en conservant davantage le ballon. Les joueurs belges ont essayé de
+      construire leurs attaques avec patience, mais ils ont rencontré de nombreuses
+      difficultés face à une équipe sénégalaise compacte et bien organisée.
+    </p>
+
+    <p>
+      Le Sénégal s’est montré solide dans les duels et très discipliné au milieu
+      du terrain. Les joueurs sénégalais ont également continué à se projeter
+      rapidement vers l’avant, obligeant la défense belge à rester constamment
+      vigilante.
+    </p>
+
+    <p>
+      La sélection belge n’a pas réussi à créer suffisamment d’occasions dangereuses
+      durant cette première période. Ses offensives ont souvent manqué de vitesse,
+      de précision et de créativité dans les derniers mètres.
+    </p>
+
+    <p>
+      La première mi-temps s’est donc terminée sur le score de 1-0 en faveur du
+      Sénégal. Cet avantage apparaît mérité au regard de l’intensité, de
+      l’organisation et de l’efficacité affichées par les Lions de la Teranga
+      pendant les 45 premières minutes.
+    </p>
+
+    <p>
+      La Belgique devra désormais montrer un visage beaucoup plus offensif en
+      seconde période. Elle devra accélérer son jeu, améliorer la précision de
+      ses passes et prendre davantage d’initiatives pour tenter de revenir au score.
+    </p>
+
+    <p>
+      Le Sénégal devra, quant à lui, conserver sa concentration et éviter de
+      reculer excessivement. L’équipe sénégalaise pourrait également profiter
+      des espaces laissés par une formation belge obligée de se découvrir pour
+      rechercher l’égalisation.
+    </p>
+
+    <p>
+      La seconde période s’annonce particulièrement disputée. La Belgique tentera
+      de réagir rapidement, tandis que le Sénégal cherchera à défendre son avantage
+      et éventuellement à inscrire un deuxième but pour se rapprocher de la victoire.
+    </p>
+  `
+},
      
      {
   id: "diables-rouges-senegal",
