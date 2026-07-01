@@ -1,4 +1,4 @@
- "use strict";
+  "use strict";
 
     const ARTICLES = [
 {
@@ -646,7 +646,8 @@ categoryName: "Info spéciale",
       const h = Math.floor(secondsTotal / 3600);
       const m = Math.floor((secondsTotal % 3600) / 60);
       const s = secondsTotal % 60;
-      return `${String(h).padStart(2,"0")} h ${String(m).padStart(2,"0")} min ${String(s).padStart(2,"0")} s`;
+
+      return `${String(h).padStart(2, "0")}H${String(m).padStart(2, "0")}M${String(s).padStart(2, "0")}S`;
     };
 
     const matches = article => {
