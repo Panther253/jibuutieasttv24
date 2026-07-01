@@ -339,6 +339,136 @@ categoryName: "Info spéciale",
     </div>
   `
 },
+
+{
+  id: "belgique-senegal-victoire-prolongation",
+  number: "ART 3",
+
+  category: "sport",
+  categoryName: "Sports",
+
+  publishedAt: "2026-07-02T00:51:00+02:00",
+
+  color: "#c8102e",
+  lang: "fr",
+  image: "",
+  title: "Belgique–Sénégal : les Diables Rouges renversent le match et se qualifient après une victoire 3-2",
+
+  summary:
+    "Longtemps menée par le Sénégal, la Belgique est revenue à 2-2 avant de s’imposer 3-2 en prolongation grâce à un penalty décisif transformé par Youri Tielemans à la 120ᵉ minute.",
+
+  body: `
+    <p>
+      La Belgique a décroché sa qualification pour les huitièmes de finale
+      après une victoire spectaculaire face au Sénégal sur le score de
+      <strong>3-2</strong>, au terme d’une rencontre intense qui s’est décidée
+      dans les dernières secondes de la prolongation.
+    </p>
+<p>
+      Après une première période difficile, durant laquelle le Sénégal avait
+      pris l’avantage, les Diables Rouges ont progressivement retrouvé leur
+      efficacité au cours de la seconde mi-temps.
+    </p>
+
+    <h2>La Belgique revient progressivement dans la rencontre</h2>
+
+    <p>
+      Menée au score, la sélection belge a augmenté son intensité et s’est
+      montrée plus entreprenante offensivement après la reprise.
+    </p>
+
+    <p>
+      Les joueurs belges ont progressivement exercé une pression plus importante
+      sur la défense sénégalaise. Cette réaction leur a permis de revenir dans
+      la rencontre et d’égaliser à <strong>2-2</strong> avant la fin du temps
+      réglementaire.
+    </p>
+<p>
+      Cette égalisation a obligé les deux équipes à disputer une prolongation
+      afin de déterminer laquelle obtiendrait son billet pour les huitièmes
+      de finale.
+    </p>
+
+    <h2>Une prolongation particulièrement disputée</h2>
+
+    <p>
+      Durant la prolongation, la Belgique et le Sénégal ont continué à se battre
+      avec détermination. La fatigue commençait à se faire sentir, mais aucune
+      des deux formations ne voulait abandonner ses ambitions.
+    </p>
+    <p>
+      À la <strong>115ᵉ minute</strong>, les deux équipes cherchaient toujours
+      le but de la victoire. Plusieurs tentatives ont été entreprises de part
+      et d’autre, mais les occasions n’ont pas été suffisamment précises pour
+      permettre à l’une des deux sélections de prendre l’avantage.
+    </p>
+
+    <p>
+      Chaque ballon devenait décisif. Une seule action pouvait offrir la
+      qualification à une équipe et mettre immédiatement fin au parcours
+      de son adversaire dans la compétition.
+    </p>
+
+    <h2>Une faute examinée par l’arbitrage vidéo</h2>
+    <p>
+      À la <strong>118ᵉ minute</strong>, une faute commise dans la surface de
+      réparation sénégalaise a provoqué une longue interruption.
+    </p>
+
+    <p>
+      L’arbitre a été invité à revoir l’action sur l’écran situé au bord du
+      terrain afin de déterminer si la Belgique devait bénéficier d’un penalty.
+    </p>
+
+    <p>
+      Après avoir attentivement examiné les différentes images et pris le temps
+      nécessaire pour analyser l’action, l’arbitre a finalement confirmé le
+      penalty à la <strong>120ᵉ minute</strong>.
+    </p>
+
+    <h2>Youri Tielemans inscrit le but décisif</h2>
+    <p>
+      Youri Tielemans s’est présenté face au gardien sénégalais pour tirer ce
+      penalty particulièrement important.
+    </p>
+
+    <p>
+      Le milieu de terrain belge n’a pas tremblé. Il a transformé sa tentative
+      et inscrit le troisième but de la Belgique, permettant aux Diables Rouges
+      de prendre l’avantage sur le score de <strong>3-2</strong>.
+    </p>
+
+    <p>
+      Ce but inscrit dans les ultimes instants de la prolongation a définitivement
+      renversé une rencontre que le Sénégal avait pourtant longtemps maîtrisée.
+    </p>
+
+    <h2>La Belgique qualifiée pour les huitièmes de finale</h2>
+    <p>
+      La Belgique s’impose finalement <strong>3-2</strong> et obtient sa
+      qualification pour les huitièmes de finale de la Coupe du monde.
+    </p>
+
+    <p>
+      Les Diables Rouges ont montré une grande capacité de réaction après avoir
+      été menés au score. Leur persévérance leur a permis de revenir dans le
+      match, de résister durant la prolongation et de faire la différence sur
+      penalty dans les dernières secondes.
+    </p>
+
+    <p>
+      Le Sénégal quitte la compétition après avoir livré une prestation
+      courageuse et particulièrement engagée. Les Lions de la Teranga pourront
+      regretter d’avoir laissé échapper leur avantage après avoir longtemps
+      semblé capables de remporter cette rencontre.
+    </p>
+
+    <div class="article-note">
+     <strong>Score final :</strong> Belgique 3-2 Sénégal, après prolongation.<br>
+      <strong>Qualification :</strong> la Belgique accède aux huitièmes de finale.
+    </div>
+  `
+},
      {
   id: "senegal-belgique-premiere-mi-temps",
   number: "ART 2",
