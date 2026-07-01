@@ -173,19 +173,35 @@
       .replaceAll('"',"&quot;")
       .replaceAll("'","&#039;");
 
-    const formatDate = iso => new Intl.DateTimeFormat("fr-FR", {
-      dateStyle:"long", timeStyle:"short"
-    }).format(new Date(iso));
+const formatDate = iso => {
+  const date = new Date(iso);
 
-    const remaining = article =>
-      FEATURED_DURATION - (Date.now() - new Date(article.publishedAt).getTime());
+  const jour = new Intl.DateTimeFormat("fr-BE", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "Europe/Brussels"
+  }).format(date);
 
-    const isFeatured = article => {
-      const elapsed = Date.now() - new Date(article.publishedAt).getTime();
-      return elapsed >= 0 && elapsed < FEATURED_DURATION;
-    };
+  const heure = new Intl.DateTimeFormat("fr-BE", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+    timeZone: "Europe/Brussels"
+  }).format(date).replace(":", "H");
 
-    const countdownText = ms => {
+  return `${jour} à ${heure}`;
+};
+
+const remaining = article =>
+  FEATURED_DURATION - (Date.now() - new Date(article.publishedAt).getTime());
+
+const isFeatured = article => {
+  const elapsed = Date.now() - new Date(article.publishedAt).getTime();
+  return elapsed >= 0 && elapsed < FEATURED_DURATION;
+};
+
+      const countdownText = ms => {
       const secondsTotal = Math.max(0, Math.floor(ms / 1000));
       const h = Math.floor(secondsTotal / 3600);
       const m = Math.floor((secondsTotal % 3600) / 60);
