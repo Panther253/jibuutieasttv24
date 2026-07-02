@@ -497,7 +497,7 @@ categoryName: "Info spéciale",
   id: "belgique-senegal-victoire-prolongation",
   number: "ART 3",
 
-  category: "sport",
+  category: "sports",
   categoryName: "Sports",
 
   publishedAt: "2026-07-02T00:51:00+02:00",
@@ -625,7 +625,7 @@ categoryName: "Info spéciale",
      {
   id: "senegal-belgique-premiere-mi-temps",
   number: "ART 2",
-  category: "sport",
+  category: "sports",
   categoryName: "Sports",
   publishedAt: "2026-07-01T22:50:00+02:00",
   color: "#c8102e",
@@ -722,7 +722,7 @@ categoryName: "Info spéciale",
   id: "diables-rouges-senegal",
   number: "ART 1",
 
-  category: "sport",
+  category: "sports",
   categoryName: "Sports",
 
   publishedAt: "2026-07-01T00:00:00+02:00",
